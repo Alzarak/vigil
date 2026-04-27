@@ -139,17 +139,14 @@ vigil/
 │   ├── Display.lua              # Frame creation, icon rendering, drag, OnUpdate sweep
 │   └── Vigil.lua                # Event registration + dispatcher; event log
 │
-├── CLAUDE.md                    # Architecture spec, API constraints, design decisions
-├── Blizzard_APIDocumentationGenerated/   # Reference: WoW 12.0.5 API docs (read-only)
 ├── wow-ui-source/               # Reference: full Blizzard UI source for the patch (not used at runtime)
+├── LICENSE                      # MIT license
 └── README.md                    # This file
 ```
 
 ---
 
 ## Architecture Summary
-
-The full design rationale lives in [CLAUDE.md](CLAUDE.md). Key points:
 
 - **Sync-only data flow**: see "How It Works" above. Combat-log fallback is dead in 12.0+.
 - **Class-based icon seed has been removed**: only Vigil-broadcasted party members get rows. No speculative rendering.
@@ -202,7 +199,6 @@ You are free to use, modify, and distribute Vigil with attribution.
 
 - **Blizzard Entertainment** — for the [`wow-ui-source` reference dump](https://github.com/Gethe/wow-ui-source) used during development to verify which APIs are addon-callable and which are restricted.
 - **OmniCD** by Treebonker — the original party cooldown tracker; Vigil exists to fill the gap left when 12.0 broke it. The `Sync Mode` concept in OmniCD was foundational.
-- **Anthropic Claude** — Vigil was built collaboratively using Claude Code. Architecture decisions, spell database curation, and the sync-only pivot after empirical confirmation of API restrictions were all worked out in conversation.
 - The WoW addon developer community on Wago, CurseForge, and Reddit, whose post-Addonpocalypse autopsies confirmed that the combat-log dead-end is real and not a workaround-able bug.
 
 ---
