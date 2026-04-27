@@ -4,7 +4,6 @@
 [![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white)](https://www.lua.org/)
 [![GitHub](https://img.shields.io/badge/GitHub-Alzarak%2Fvigil-181717?logo=github)](https://github.com/Alzarak/vigil)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-DA7857?logo=anthropic)](https://claude.ai/code)
 
 A 5-man party cooldown tracker for **World of Warcraft: Midnight** (patch 12.0+). Vigil shows a compact icon strip of party members' defensives, externals, interrupts, stuns, roots, and major healing cooldowns so healers, tanks, and DPS can coordinate without guessing.
 
