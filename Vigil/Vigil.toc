@@ -1,0 +1,14 @@
+## Interface: 120005
+## Title: Vigil
+## Notes: Party cooldown tracker for Mythic+
+## Author: Vigil
+## Version: 0.1.30
+## SavedVariables: VigilDB
+## AddonCompartmentFunc: Vigil_OnAddonCompartmentClick
+## X-Curse-Project-ID:
+
+SpellDB.lua
+Config.lua
+Sync.lua
+Display.lua
+Vigil.lua
