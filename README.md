@@ -139,7 +139,6 @@ vigil/
 │   ├── Display.lua              # Frame creation, icon rendering, drag, OnUpdate sweep
 │   └── Vigil.lua                # Event registration + dispatcher; event log
 │
-├── wow-ui-source/               # Reference: full Blizzard UI source for the patch (not used at runtime)
 ├── LICENSE                      # MIT license
 └── README.md                    # This file
 ```
